@@ -27,7 +27,7 @@ import org.hibernate.annotations.FetchMode;
 @Table(name = "movimentacao")
 public class movimentacaoModel implements Serializable {
 
-  @Id
+    @Id
     @GeneratedValue
     private long idMovimentacao;
 
